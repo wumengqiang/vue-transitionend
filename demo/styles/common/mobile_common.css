@@ -1,0 +1,57 @@
+* {
+  -webkit-tap-highlight-color: transparent; }
+
+a {
+  text-decoration: none; }
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate), [v-cloak] {
+  display: none !important; }
+
+.clear {
+  clear: both; }
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " "; }
+
+.clearfix:after {
+  clear: both; }
+
+.modal-open {
+  overflow: hidden; }
+
+.pull-left {
+  float: left !important; }
+
+.pull-right {
+  float: right !important; }
+
+.transparent {
+  opacity: 0; }
+
+.hidden {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.invisible {
+  visibility: hidden !important; }
+
+.text-left {
+  text-align: left !important; }
+
+.text-center {
+  text-align: center !important; }
+
+.text-right {
+  text-align: right !important; }
+
+.text-nowrap {
+  white-space: nowrap !important; }
+
+.inline-block {
+  display: inline-block; }
+
+/*# sourceMappingURL=mobile_common.css.map */

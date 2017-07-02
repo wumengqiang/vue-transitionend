@@ -1,0 +1,25 @@
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+------------------------------------------------------------- */
+/* a little change by wumengqiang
+ * changes and notes
+ *   - remove khtml prefix . because its low rate of occupation
+ *   - not include flexbox mixins , because it's too many code, so i put it another storage
+          (git@github.com:wumengqiang/sass-flex-mixin.git forked from git@github.com:mastastealth/sass-flex-mixin.git).
+ *   - not support browser
+ *        - android 3.0 below
+ *   - compatible properties
+ *        - border-radius
+*/
+
+/*# sourceMappingURL=mixins.css.map */

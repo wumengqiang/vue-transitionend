@@ -1,0 +1,32 @@
+{
+  "name": "vue-transitionend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "./src/index.js",
+  "jsnext:main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wumengqiang/vue-transitionend.git"
+  },
+  "keywords": [
+    "vue",
+    "transitionend",
+    "webkitTransitionEnd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wumengqiang/vue-transitionend/issues"
+  },
+  "homepage": "https://github.com/wumengqiang/vue-transitionend#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
+  }
+}

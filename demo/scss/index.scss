@@ -1,0 +1,10 @@
+@import "common/mixins";
+.demo {
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    @include transition(transform 1.5s);
+    &.transition {
+        @include transform(translateX(250px));
+    }
+}

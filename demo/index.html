@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<title>最美农家评选活动</title>
+    <meta charset='utf8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="renderer" content="webkit" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="form-detection" content="email=no">
+    <meta name="form-detection" content="telephone=no">
+    <link rel="stylesheet" href="./plugins/normalize/normalize.css">
+    <link rel="stylesheet" href="./styles/landscape.css">
+    <link rel="stylesheet" href="./styles/common/mobile_common.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+</head>
+<body>
+    <div class="landscape"></div>
+    <div class="page-container">
+        <div class="demo" :class="{'transition': transition}"
+            v-transition-end="handleTransitionEnd"></div>
+    </div>
+    <script type='text/javascript' src='./plugins/vue/vue@2.2.1.js'></script>
+    <script type='text/javascript' src='./plugins/vue-transitionend/vue-transitionend.js'></script>
+    <script type='text/javascript' src='./plugins/vue-resource/vue-resource@1.2.1.min.js'></script>
+    <script type='text/javascript' src='./scripts/index.js'></script>
+</body>

@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+coverage
+.idea
+.jshintrc
+vue-infinite-scroll.js
+*.log
+.sass-cache
