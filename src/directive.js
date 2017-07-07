@@ -22,7 +22,7 @@ var binder = {
             return
         }
         if(document.addEventListener){
-            document.addEventListener(this.eventName, bind.value)
+            el.addEventListener(this.eventName, bind.value)
         } else {
             this.bindError = true
             console.error("document.addEventListener not support")
@@ -31,7 +31,7 @@ var binder = {
 
     unbind(el, bind, vnode){
         if(! this.bindError) {
-            document.removeEventListener(this.eventName, bind.value)
+            el.removeEventListener(this.eventName, bind.value)
         }
     }
 }
